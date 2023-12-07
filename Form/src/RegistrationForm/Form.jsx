@@ -3,55 +3,55 @@ import App from '../App'
 
 function Form() {
   return (
-    <div class="Form">
+    <div className="Form">
         <div className="Registration"><b>Registration</b></div>
         
         <form action="form.php">
-            <div class="Details">
-             <div class="Form-details">
-           <span class="details">Full Name</span>
-            <input type="text" class="input" placeholder="Enter your name"/>
+            <div className="Details">
+             <div className="Form-details">
+           <span className="details">Full Name</span>
+            <input type="text" className="input" placeholder="Enter your name"/>
         </div>
-        <div class="Form-details">
-            <span class="details">Username</span>           
-                <input type="text" class="input" placeholder="Enter your user name"/>
+        <div className="Form-details">
+            <span className="details">Username</span>           
+                <input type="text" className="input" placeholder="Enter your user name"/>
         </div>
-        <div class="Form-details">
-            <span class="details">Email</span>
-            <input type="text" class="input" placeholder="Enter your email"/>
+        <div className="Form-details">
+            <span className="details">Email</span>
+            <input type="text" className="input" placeholder="Enter your email"/>
         </div>
-        <div class="Form-details">
-            <span class="details">Phone Number</span>
-            <input type="text" class="input" placeholder="Enter your number"/>
+        <div className="Form-details">
+            <span className="details">Phone Number</span>
+            <input type="text" className="input" placeholder="Enter your number"/>
         </div>
-        <div class="Form-details">
-            <span class="details">Password</span>
-            <input type="text" class="input" placeholder="Enter your password"/>
+        <div className="Form-details">
+            <span className="details">Password</span>
+            <input type="text" className="input" placeholder="Enter your password"/>
         </div>
-        <div class="Form-details">
-            <span class="details">Confirm Password</span>           
-            <input type="text" class="input" placeholder="Confirm your password"/>
+        <div className="Form-details">
+            <span className="details">Confirm Password</span>           
+            <input type="text" className="input" placeholder="Confirm your password"/>
         </div>
     </div>
-        <div class="gender_details">
-        <span class="gender">Gender</span>
-            <div class="category">
-                <div class="gendert">
+        <div className="gender_details">
+        <span className="gender">Gender</span>
+            <div className="category">
+                <div className="gendert">
             <input type="radio" id="male" name="gender"/>
             <label for="male">Male</label>
         </div>
-        <div class="gendert">
+        <div className="gendert">
             <input type="radio" id="female" name="gender"/>
             <label for="female">Female</label>
         </div>
-        <div class="gendert">
+        <div className="gendert">
             <input type="radio" id="other" name="gender"/>
             <label for="other">Prefer not to say</label>
         </div>
         </div>
         </div>
 
-        <div class="button">
+        <div className="button">
             <input type="submit" value="Register"/>
         </div>
     
