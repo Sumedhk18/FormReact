@@ -1,0 +1,100 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('Image/Img.avif');
+  background-position: center;
+  background-size: cover;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 25%;
+  margin-top: 15%; */
+
+}
+
+.Form{
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 25px;
+  height: 450px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: white;
+}
+
+.Details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Form-details{
+ width: 250px;
+ margin-bottom: 10px;
+  
+}
+.input{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 14px;
+  
+}
+
+.details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+ 
+} 
+
+.Registration{
+  font-size: 25px;
+  color: black;
+}
+
+.gender{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.category{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.button{
+  height: 50px;
+}
+
+.button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(37, 37, 154);
+}
+
+.button input:hover{
+  background-color: rgb(4, 4, 83);
+}
